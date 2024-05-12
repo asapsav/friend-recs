@@ -1,0 +1,20 @@
+.input-area {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .input-area input, .input-area button {
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .iphone-feed {
+    width: 375px; /* Approximate width of iPhone 12 */
+    height: 812px; /* Approximate height of iPhone 12 */
+    border: 16px solid black;
+    border-radius: 36px;
+    overflow-y: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+  

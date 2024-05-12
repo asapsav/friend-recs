@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Twitter Feed Emulator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="input-area">
+    <input type="text" id="tweet-input" placeholder="Enter text to get tweet recommendations" />
+    <button onclick="updateFeed()">Get Recommendations</button>
+</div>
+<div id="feed" class="iphone-feed"></div>
+
+<script async src="https://platform.twitter.com/widgets.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
